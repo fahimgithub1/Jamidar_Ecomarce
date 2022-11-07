@@ -75,7 +75,7 @@ footer {
     }
     .HerosSection{
         padding-top: 2.8rem;
-        padding-bottom: .8rem;
+        padding-bottom: .3rem;
     }
     footer .CommonpaddingSection{
         margin:  0;
@@ -738,7 +738,7 @@ input:focus,input:hover{
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 4px 20px;
 }
 
 .nav-item:hover{
@@ -822,7 +822,8 @@ input:focus,input:hover{
 /* ======================================= */
 /* Heros style start */
 .MidCataIcon{
-    display: sticky;
+    max-height: min-content;
+    height: min-content;
 }
 
 
@@ -944,7 +945,7 @@ input:focus,input:hover{
 /* Copy form templet end */
 
 .HerosCarosul{
-    padding: 16px 0px;
+    /* padding: 16px 0px; */
     padding-left: 10px;
 }
 
@@ -974,7 +975,6 @@ input:focus,input:hover{
 }
 
 .HerosRightSide{
-    margin-top: 16px;
     padding-right: 0 !important;
 }
 
@@ -988,7 +988,7 @@ input:focus,input:hover{
 
 @media screen and (max-width: 1023px) {
     .HerosSection{
-        margin-top: 70px;
+        margin-top: 77px;
     }
 
     .container {
@@ -1003,7 +1003,7 @@ input:focus,input:hover{
 
 @media screen and (max-width: 575px) {
     .HerosSection {
-        margin-top: 68px;
+        margin-top: 71px;
     }
 }
 

@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 1100px) {
     .BlogSection{
-        padding-top: 58px;
+        padding-top: 50px;
     } 
 }
 
@@ -30,10 +30,6 @@
     text-align: justify;
 }
 
-/* .AboutUsPerDiv2 p{
-    width: 100%;
-} */
-
 .RightPerDiv{
     margin-bottom: 1.4rem;
 }
@@ -43,7 +39,6 @@
     color: var(--logoColor-1);
     font-weight: bold;
     font-size: 1.45rem;
-    /* text-align: center; */
 }
 
 .AboutUsLeft a:hover{
@@ -120,9 +115,150 @@
     font-size: 17px !important;
 }
 
-/*  */
+/* Terms And Cond page start*/
 .TermsAndCond{
     font-size: 15px;
+}
+/* Terms And Cond page end*/
+
+/* Blog page start */
+.BlogSection .AboutUsLeft{
+    padding-right: 40px;
+}
+
+.PerBlogDIv{
+    box-shadow: 0 0 5px rgb(214 204 204);
+    padding: 30px;
+    border-radius: 10px;
+    height: min-content;
+    padding-bottom: 44px;
+}
+
+.PerBlogDIv:not(:last-child){
+    margin-bottom: 40px;
+}
+
+.PerBlogDIv h2{
+    font-weight: bolder;
+    margin-bottom: .8rem;
+    color: var(--logoColor-1);
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.PerBlogDIv ul{
+    font-size: 15px;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+.PerBlogDIv ul li i{
+    margin-right: .2rem;
+}
+
+.PerBlogDIv ul li:not(:last-child){
+    margin-right: .5rem;
+}
+
+.PerVlogImg{
+    width: 100%;
+    overflow: hidden;
+}
+
+.PerBlogDIv img{
+    width: 70%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: .5rem;
+}
+
+.PerBlogDIv p{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.PerBlogDIv .BlogDatilsL{
+    border: none;
+    outline: none;
+    background-color: var(--logoColor-1);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.PerBlogDIv .BlogDatilsL:hover{
+    color: white;
+    background-color: var(--logoColor-2);
+}
+
+/* Blog page end */
+
+/* Blog Daitles start */
+.DaitlesPerDIv .MainTilte{
+    font-weight: bolder;
+}
+
+.DaitlesPerDIv h3{
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+.DaitlesPerDIv .imageDivBlog{
+    overflow: hidden;
+    margin-bottom: .5rem;
+}
+
+.DaitlesPerDIv img{
+    width: 70%;
+    height: auto;
+}
+
+.DaitlesPerDIv p{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.DaitlesPerDIv p:not(:last-child){
+    margin-bottom: .7rem;
+}
+
+.DaitlesPerDIv:not(:last-child){
+    margin-bottom: 2rem;
+}
+/* Blog Daitles end */
+
+@media screen and (max-width: 991px) {
+    .BlogSection .AboutUsLeft{
+        padding-right: 10px !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .PerBlogDIv img{
+        width: 87%;
+    }
+
+    .BlogSection .AboutUsLeft{
+        padding-right: 0px;
+    }
+
+    .PerBlogDIv{
+        padding: 15px;
+        margin-bottom:  .8rem;
+        padding-bottom: 25px;
+    }
+
+    .AboutUsLeft{
+        padding: 10px;
+        padding-right: 10px !important;
+    }
+
+    .DaitlesPerDIv img{
+        width: 85%;
+        height: auto;
+    }
 }
 
 :root {
