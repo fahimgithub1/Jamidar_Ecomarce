@@ -356,6 +356,7 @@
 }
 .tab-section .tab-contents .cart-total-panel {
     border: 1px dashed #ddd;
+    border-radius: 8px;
 }
 .tab-section .tab-contents .cart-total-panel .title {
     font-size: 20px;

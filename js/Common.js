@@ -25,28 +25,20 @@
 
     }
 
-// For scorole efect
-
+    // For scorole efect
     window.addEventListener('scroll', () => {
         let TopNev = document.querySelector('.TopNev');
         let MidNev = document.querySelector('.MidNev');
         let BottomNev = document.querySelector('.BottomNev');
-        let CatagorisIcinHide = document.querySelector('.CatagorisIcinHide');
-        let CatagorisIcinHide2 = document.querySelector('.CatagorisIcinHide2');
-        CatagorisIcinHide.style.display= "none";
 
         if (window.scrollY > 300) {
             TopNev.style.display = 'none';
             MidNev.style.display = 'none';
             BottomNev.style.background = "rgba(216,216,216,1)";
-            CatagorisIcinHide.style.display= "block";
-            CatagorisIcinHide2.style.display= "none";
         } else {
             TopNev.style.display = 'block';
             MidNev.style.display = 'block';
             BottomNev.style.background = "white";
-            CatagorisIcinHide.style.display= "none";
-            CatagorisIcinHide2.style.display= "block";
         }
     })
 
@@ -132,21 +124,4 @@
         collectedAddressA.style.display = "block";
         addressInfoFrom.style.display = "none";
     }
-
-    
-
-    // Address addd show  AddAdressBtnO
-    // function EmaleChangeFun(){
-    //     let EmaoChange = document.querySelector("#EmaoChange");
-    //     let PassowardChange = document.querySelector("#PassowardChange");
-    //     PassowardChange.style.display = "none !important" ;
-    //     EmaoChange.style.display = "block !important";
-    // }
-    
-    // function PasswordhendlerFun(){
-    //     let EmaoChange = document.querySelector("#EmaoChange");
-    //     let PassowardChange = document.querySelector("#PassowardChange");
-    //     PassowardChange.style.display = "block !important";
-    //     EmaoChange.style.display = "none !important";
-    // }
 

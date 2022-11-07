@@ -1,12 +1,21 @@
 .ProductViewArea{
-    margin-top: 164px;
+    margin-top: 156px;
+}
+
+.ShowCatagoritStapes{
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.ShowCatagoritStapes a {
+    color: rgb(103, 103, 103) !important;
+}
+
+.ShowCatagoritStapes a:hover {
+    color: var(--logoColor-2) !important;
 }
 
 @media screen and (min-width: 1100px) {
-    .ProductViewArea{
-        padding-top: 2.8rem;
-    }
-
     .details-area{
         padding: .5rem 0;
         padding-bottom: 0;
@@ -20,7 +29,7 @@
 
 @media screen and (max-width: 1199px) {
     .ProductViewArea{
-        margin-top: 164px;
+        margin-top: 156px;
     }
 }
 

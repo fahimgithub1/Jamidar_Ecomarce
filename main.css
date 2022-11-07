@@ -9,6 +9,32 @@ body{
     padding: 0;
 }
 
+/* Scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fd883f;
+    transition: all .5s; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2c66af;
+    transition: all .5s;
+  }
+
+/* Scroll */
+
 .owl-carousel.owl-loaded {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -538,9 +564,9 @@ input:focus,input:hover{
     top: 50PX;
 }
 
-.CatagorisIcinHide{
+/* .CatagorisIcinHide{
     display: none;
-}
+} */
 
 .DestopNavCtagoris{
     position: relative !important;
@@ -1450,6 +1476,7 @@ input:focus,input:hover{
 .ProductDropdown ul{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ProductDropdown ul li{

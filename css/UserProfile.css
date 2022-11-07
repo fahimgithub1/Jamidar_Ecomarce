@@ -30,6 +30,7 @@
 .MenuDaitels.tab-content{
     padding: 0.2rem 1rem !important;
     color: black !important;
+    margin: 0;
 }
 
 .tablist{
@@ -450,6 +451,20 @@
     .UserMenu div button{
         margin-right: 5px;
     }
+}
+
+
+@media screen and (min-width: 1100px) {
+    .NavigatinSection{
+        padding-top: 60px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #Orders{
+        margin-bottom: .5rem;
+    }
+    
 }
 
 :root {
