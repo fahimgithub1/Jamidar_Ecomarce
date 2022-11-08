@@ -34,7 +34,7 @@
         if (window.scrollY > 300) {
             TopNev.style.display = 'none';
             MidNev.style.display = 'none';
-            BottomNev.style.background = "rgba(216,216,216,1)";
+            BottomNev.style.background = "#dae7f7";
         } else {
             TopNev.style.display = 'block';
             MidNev.style.display = 'block';

@@ -264,12 +264,13 @@
     margin: auto;
     padding-bottom: 68px;
     position: relative;
+    justify-content: center;
 }
 
 .HelpeSearch .Searchbtn{
     position: absolute;
     top: 8px;
-    right: 12px;
+    right: 46px;
     font-size: 20px;
     color: #797979;
     cursor: pointer;
@@ -324,6 +325,82 @@
     color: var(--logoColor-1);
 }
 /* support end */
+
+/* support single page start */
+.PathSuportSEcio{
+    margin-bottom: 3rem;
+}
+
+.PathSuport{
+    text-transform: capitalize;
+    padding-bottom: 20px ;
+    border-bottom: 1px solid black;
+}
+.PathSuport a:hover{
+    color: var(--logoColor-2);
+}
+
+.Question{
+    max-height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.suportMain .Question button{
+    padding: 5px 5px;
+    margin-bottom: 0rem;
+    text-align: left;
+    width: 100%;
+    font-style: italic;
+}
+
+.suportMain .Question .active{
+    background: none !important;
+}
+
+.suportMain .AnswerDiv{
+    margin: 0;
+    padding: 0px 30px;
+}
+
+.suportMain .Answers{
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0 0 10px #c2c2c2;
+    border: 1px solid #b0b0b0;
+    margin-top: 0 !important;
+    border-left: 5px solid #2c66af;
+    border-right: 5px solid #fe853d;
+}
+
+.suportMain .Answers div{
+    width: 100%;
+}
+
+.suportMain .Answers .active{
+    color: black !important;
+}
+
+@media screen and (max-width: 1023px) {
+    .PathSuport{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .Question{
+        margin-bottom: 1.5rem;
+    }
+
+    .suportMain .AnswerDiv{
+        padding: 0;
+    }
+
+    .HelpeSearch .Searchbtn{
+        right: 30px;
+    }
+}
+/* support single page ends */
 
 @media screen and (max-width: 991px) {
     .BlogSection .AboutUsLeft{
