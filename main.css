@@ -1605,6 +1605,7 @@ footer {
 
 .lastFooter{
     background-color: #363636;
+    padding: 20px 0;
 }
 
 footer ul li{
@@ -1620,6 +1621,7 @@ footer ul li a{
 .dmca{
     font-size: 14px;
     color: white;
+    margin-top: 1.5rem;
 }
 
 .dmca a{

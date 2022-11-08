@@ -262,7 +262,7 @@
 .HelpeSearch{
     max-width: 700px;
     margin: auto;
-    padding-bottom: 68px;
+    padding-bottom: 35px !important;
     position: relative;
     justify-content: center;
 }
@@ -398,6 +398,10 @@
 
     .HelpeSearch .Searchbtn{
         right: 30px;
+    }
+
+    .AnswerDiv .tab-content {
+        padding-bottom: .7rem !important;
     }
 }
 /* support single page ends */
