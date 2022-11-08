@@ -52,7 +52,7 @@
 .AboutUsLeft img{
     width: 95%;
     margin: auto;
-    margin-bottom: 1.2rem;
+    margin-bottom: .5rem;
 }
 
 .AboutUsRight{
@@ -206,7 +206,6 @@
 
 .DaitlesPerDIv .imageDivBlog{
     overflow: hidden;
-    margin-bottom: .5rem;
 }
 
 .DaitlesPerDIv img{
@@ -303,6 +302,7 @@
 .SupportPertpe h6{
     font-weight: bold;
     font-size: 19px;
+    text-align: left;
     color: var(--logoColor-1);
 }
 
@@ -403,6 +403,15 @@
     .AnswerDiv .tab-content {
         padding-bottom: .7rem !important;
     }
+
+    .SupportListDiv {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .SupportPertpe{
+        padding: 10px 4px !important;
+    }
 }
 /* support single page ends */
 
@@ -414,6 +423,18 @@
 }
 
 @media screen and (max-width: 767px) {
+    .DaitlesPerDIv{
+        margin-bottom: 1.2rem;
+    }
+
+    .PerBlogDIv:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    .PathSuportSEcio {
+        margin-bottom: 2rem;
+    }
+
     .PerBlogDIv img{
         width: 87%;
     }
@@ -424,7 +445,7 @@
 
     .PerBlogDIv{
         padding: 15px;
-        margin-bottom:  .8rem;
+        margin-bottom:  1rem;
         padding-bottom: 25px;
     }
 
