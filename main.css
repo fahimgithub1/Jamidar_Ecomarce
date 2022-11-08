@@ -1069,6 +1069,7 @@ input:focus,input:hover{
     border: 1px solid #d5d5d5;
     padding: 10px 5px;
     padding-bottom: 5px;
+    border-radius: 10px;
 }
 
 .PerServocesDiv{
@@ -1168,6 +1169,8 @@ input:focus,input:hover{
     border: 1px solid #c1c1c1;
     display: block;
     flex: none;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .Titelh4{
