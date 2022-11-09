@@ -116,10 +116,10 @@
     width: 100% !important; 
 }
 
-.mz-lens {
+/* .mz-lens {
     height: 100px !important;
     width: 100px !important;
-}
+} */
 
 /* .mz-zoom-window {
     width: 500px !important;
@@ -190,6 +190,8 @@
 
 .SmallImg{
     margin-top: .8rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .SmallImg div{
@@ -199,6 +201,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #2c66af;
 }
 
 .SmallImg div:not(:last-child){
@@ -237,7 +241,7 @@
     margin-bottom: 19px;
 }
 .product-view-area .part-txt .review .star {
-    font-size: 20px;
+    font-size: 13px;
     line-height: 100%;
     color: var(--logoColor-2);
     display: -webkit-box;
@@ -289,7 +293,7 @@
     margin-bottom: 1px;
 }
 .product-view-area .part-txt .short-details span {
-    color: #fe5502;
+    color: var(--logoColor-2);
 }
 .product-view-area .part-txt .dscr {
     font-size: 16px;
@@ -372,8 +376,8 @@
     font-size: 13px;
     text-transform: uppercase;
     color: #ffffff;
-    background: #fe5502;
-    border: 1px solid #fe5502;
+    background: var(--logoColor-2);
+    border: 1px solid var(--logoColor-2);
     font-weight: bold;
     border-radius: 9px;
 }
@@ -387,13 +391,13 @@
 }
 .product-view-area .part-txt .btn-box button:nth-child(2):hover {
     color: #ffffff;
-    background: #fe5502;
-    border-color: #fe5502;
+    background: var(--logoColor-2);
+    border-color: var(--logoColor-2);
 }
 .product-view-area .part-txt .btn-box button:hover {
     background: #ffffff;
     border-color: #ddd;
-    color: #fe5502;
+    color: var(--logoColor-2);
 }
 .product-view-area .part-txt .product-share {
     display: -webkit-box;
@@ -430,7 +434,7 @@
 }
 
 .product-view-area .part-txt .product-share .social a:hover {
-    background: #fe5502;
+    background: var(--logoColor-2);
 }
 
 .quantity {
@@ -484,8 +488,8 @@
     border-left: 1px solid #ddd;
 }
 .quantity .quantity-nav .quantity-button:hover {
-    background: #fe5502;
-    border-color: #fe5502;
+    background: var(--logoColor-2);
+    border-color: var(--logoColor-2);
     color: #ffffff;
 }
 
@@ -512,9 +516,8 @@
     font-size: 20px;
     line-height: 100%;
     font-weight: 500;
-    padding: 3px 10px 2px;
     position: relative;
-    padding: 5px 10PX !important;
+    padding: 8px 10PX !important;
     border-radius: 5px;
     border: 1px solid #2c66af !important;
     margin-right: 5px;
@@ -555,7 +558,7 @@
     padding-right: 0;
 }
 .details-area .nav-link.active {
-    color: #fe5502;
+    color: var(--logoColor-2);
 }
 .details-area .nav-link.active::after {
     opacity: 1;
@@ -668,7 +671,7 @@
     border-radius: 0;
 }
 .details-area .tab-pane .product-review .review-overview .right ul li .progress .progress-bar {
-    background: #fe5502;
+    background: var(--logoColor-2);
 }
 .details-area .tab-pane .product-review .review-overview .right ul li .percentage {
     font-size: 14px;
@@ -774,7 +777,7 @@
     overflow: hidden;
 }
 .details-area .tab-pane .product-review .review-wrap .single-review .comment-area .bottom-wrap .gallery-wrap .img-gallery .client-img.active {
-    border-color: #fe5502;
+    border-color: var(--logoColor-2);
 }
 .details-area .tab-pane .product-review .review-wrap .single-review .comment-area .bottom-wrap .gallery-wrap .img-gallery .client-img img {
     max-width: none;
@@ -809,7 +812,7 @@
     color: #606060;
 }
 .details-area .tab-pane .product-review .review-wrap .single-review .comment-area .bottom-wrap .gallery-wrap .view-panel .clt-view-panel-close:hover {
-    color: #fe5502;
+    color: var(--logoColor-2);
 }
 .details-area .tab-pane .product-review .review-wrap .single-review .comment-area .bottom-wrap .reaction {
     display: -webkit-box;
@@ -1741,7 +1744,7 @@
         width: calc(25% - 11.3px);
     }
     .product-view-area .part-txt .review .star {
-        font-size: 18px;
+        font-size: 13px;
     }
     .quantity .quantity-nav .quantity-button {
         width: 40px;
@@ -2368,7 +2371,7 @@
     }
     .header .bottom-header .header-search form button:hover,
     .header .bottom-header .header-search form button:focus {
-        color: #fe5502;
+        color: var(--logoColor-2);
     }
     .header .menu-bar {
         display: none;
@@ -3945,7 +3948,7 @@
         display: none;
     }
     .account .account-sidebar .nav .nav-link.active .icon {
-        background: #fe5502;
+        background: var(--logoColor-2);
         background: #f9e3d9;
     }
     .account .account-sidebar .nav .nav-link .icon {
@@ -4344,7 +4347,7 @@
     }
     .header .bottom-header .header-search form button:hover,
     .header .bottom-header .header-search form button:focus {
-        color: #fe5502;
+        color: var(--logoColor-2);
     }
     .header .menu-bar {
         display: none;
@@ -5971,7 +5974,7 @@
         display: none;
     }
     .account .account-sidebar .nav .nav-link.active .icon {
-        background: #fe5502;
+        background: var(--logoColor-2);
         background: #f9e3d9;
     }
     .account .account-sidebar .nav .nav-link .icon {
@@ -6387,7 +6390,7 @@
     }
     .header .bottom-header .header-search form button:hover,
     .header .bottom-header .header-search form button:focus {
-        color: #fe5502;
+        color: var(--logoColor-2);
     }
     .header .menu-bar {
         display: none;
@@ -8021,7 +8024,7 @@
         display: none;
     }
     .account .account-sidebar .nav .nav-link.active {
-        background: #fe5502;
+        background: var(--logoColor-2);
         background: #f9e3d9;
     }
     .account .account-sidebar .nav .nav-link:last-child {
@@ -8436,7 +8439,7 @@
     }
     .header .bottom-header .header-search form button:hover,
     .header .bottom-header .header-search form button:focus {
-        color: #fe5502;
+        color: var(--logoColor-2);
     }
     .header .menu-bar {
         display: none;
@@ -9473,7 +9476,7 @@
         margin-bottom: 20px;
     }
     .details-area .nav-link {
-        font-size: 14px;
+        font-size: 16px;
         padding: 3px 15px 2px;
     }
     .details-area .nav-link::after {
@@ -10095,7 +10098,7 @@
         display: none;
     }
     .account .account-sidebar .nav .nav-link.active {
-        background: #fe5502;
+        background: var(--logoColor-2);
         background: #f9e3d9;
     }
     .account .account-sidebar .nav .nav-link:last-child {

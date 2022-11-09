@@ -25,6 +25,7 @@ body{
   ::-webkit-scrollbar-thumb {
     background: #fd883f;
     transition: all .5s; 
+    border-radius: 50px;
   }
   
   /* Handle on hover */
@@ -582,6 +583,7 @@ input:focus,input:hover{
     width: 215px;
     padding: 5px;
     font-weight: 500;
+    border-radius: 7px;
 }
 
 .CatagorisIcinHideCros{
@@ -767,7 +769,7 @@ input:focus,input:hover{
 }
 
 .nav-item:not(:last-child){
-    border-bottom: 1px solid #c5c4c4;
+    border-bottom: 1px solid #e7e6e6;
 }
 
 .nav-item img{
@@ -833,9 +835,18 @@ input:focus,input:hover{
     margin-top: 151px;
 }
 
+.HerosSection2{
+    margin-top: 134px;
+}
+/* comment */
+.carousel-inner{
+    border-radius: 7px !important;
+    overflow: hidden !important;
+}
+
 @media screen and (max-width: 1199px) {
     .HerosSection {
-        margin-top: 151px;
+        margin-top: 134px;
     }
 }
 
@@ -853,9 +864,12 @@ input:focus,input:hover{
     padding: 0 !important;
     position: relative;
     z-index: 0;
+    /* comment */
+    border-radius: 7px;
 }
 
 .category-sub-menu {
+    border-radius: 7px;
     position: absolute;
     top: 0px;
     left: 100%;
@@ -866,6 +880,7 @@ input:focus,input:hover{
     border: 1px solid rgba(34, 34, 34, 0.1);
     z-index: 100;
     display: none;
+    box-shadow: 0 0 5px #e2e2e2;
 }
 
 .NavSubBranceHover:hover .TabletopSubMenu{
@@ -933,7 +948,7 @@ input:focus,input:hover{
 }
 .category-sub-menu img {
     margin-top: 9px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .banner .category-list .category-item:hover .category-sub-menu,
 .banner .category-list .category-item:focus-within .category-sub-menu {
@@ -945,8 +960,8 @@ input:focus,input:hover{
 /* Copy form templet end */
 
 .HerosCarosul{
-    /* padding: 16px 0px; */
     padding-left: 10px;
+    padding-right: 0;
 }
 
 .HerosCarosul img{
@@ -981,6 +996,8 @@ input:focus,input:hover{
 .HerosRightSide img{
     height: 136px;
     margin-bottom: .5rem;
+    /* comment */
+    border-radius: 7px;
 }
 .fullwidtTebe{
     z-index: -10;
@@ -1069,7 +1086,7 @@ input:focus,input:hover{
     border: 1px solid #d5d5d5;
     padding: 10px 5px;
     padding-bottom: 5px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .PerServocesDiv{
@@ -1160,6 +1177,15 @@ input:focus,input:hover{
     padding: 0px 5px;
 }
 
+/* comment */
+.BannerDiv a{
+    border-radius: 7px;
+    border: 1px solid var(--logoColor-1);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
 .BannerDiv img{
     height: auto;
 }
@@ -1169,7 +1195,7 @@ input:focus,input:hover{
     border: 1px solid #c1c1c1;
     display: block;
     flex: none;
-    border-radius: 10px;
+    border-radius: 7px;
     overflow: hidden;
 }
 
@@ -1419,44 +1445,6 @@ input:focus,input:hover{
      color: var(--logoColor-2);
      font-size: 12px;
 }
-
-@media screen and (max-width: 575px) {
-    .ProductImgage {
-        height: 149px;
-        overflow: hidden;
-    }
-
-    .PrductText .ProductTitle {
-        height: 42px;
-        max-height: 42px;
-        overflow: hidden;
-    }
-
-    .PrductText {
-        font-size: 14px;
-    }
-
-    .DuleProduct div:not(:last-child) {
-        margin-bottom: 0.3rem;
-    }
-
-    .PerProductDiv:not(:last-child){
-        margin-bottom: 1rem !important;
-    }
-
-    .owl-carousel.owl-loaded {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    
-    .PerProductDiv{
-        margin-bottom: 0.7rem;
-    }
-
-    .FlashPaddingTop{
-        margin-top: .3rem;
-    }
-}
 /* Flash sale end */
 /* ============================= */
 /* Furnicer sectin start */
@@ -1507,42 +1495,6 @@ input:focus,input:hover{
 .tab-content {
     padding: 1.7rem 1.3rem;
     padding-bottom: .7rem !important;
-}
-
-@media screen and (max-width: 575px) {
-    .tab-content .DuleProduct {
-        margin-bottom: .5rem;
-        padding-left: 3px;
-        padding-right: 3px;
-    }
-
-    .tab-content {
-        padding: 0.7rem 7px !important;
-        padding-bottom: 0rem !important;
-    }
-    
-    /* Furnicer supCata filterimg   */
-    .FilterSubcatagorisInPhone{
-        width: 100%;
-        text-align: center;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        padding-top: .5rem;
-        margin-Top: .3rem;
-    }
-
-    .FilterSubcatagorisInPhone ul{  
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-    }
-
-    .FilterSubcatagorisInPhone li{
-        margin-bottom: .3rem;
-    }
 }
 
 /* Furnicer sectin end */
@@ -1629,6 +1581,76 @@ footer ul li a{
 }
 
 @media screen and (max-width: 575px) {
+    .ProductImgage {
+        height: 149px;
+        overflow: hidden;
+    }
+
+    .PrductText .ProductTitle {
+        height: 42px;
+        max-height: 42px;
+        overflow: hidden;
+    }
+
+    .PrductText {
+        font-size: 14px;
+    }
+
+    .DuleProduct div:not(:last-child) {
+        margin-bottom: 0.3rem;
+    }
+
+    .PerProductDiv:not(:last-child){
+        margin-bottom: 1rem !important;
+    }
+
+    .owl-carousel.owl-loaded {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .PerProductDiv{
+        margin-bottom: 0.7rem;
+    }
+
+    .FlashPaddingTop{
+        margin-top: .3rem;
+    }
+
+    .tab-content .DuleProduct {
+        margin-bottom: .5rem;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .tab-content {
+        padding: 0.7rem 7px !important;
+        padding-bottom: 0rem !important;
+    }
+    
+    /* Furnicer supCata filterimg   */
+    .FilterSubcatagorisInPhone{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        padding-top: .5rem;
+        margin-Top: .3rem;
+    }
+
+    .FilterSubcatagorisInPhone ul{  
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .FilterSubcatagorisInPhone li{
+        margin-bottom: .3rem;
+    }
+
     .FristFooter ul li{
         text-align: center;
     }

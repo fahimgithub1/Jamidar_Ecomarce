@@ -2,6 +2,16 @@
     height: 206px;
     max-height: 206px;
     overflow: hidden;
+    padding: 0 10px;
+}
+
+/* comment */
+.AllProductImg div{
+    border: 1px solid var(--logoColor-1);
+    border-radius: 7px;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 !important;
 }
 
 .AllProduct .tab-content{
@@ -52,7 +62,7 @@
 .priceLabel{
     background-color: var(--logoColor-2);
     height: 12px;
-    border-radius: 10px;
+    border-radius: 7px;
     position: relative;
     margin-top: .7rem;
     border: 1px solid rgb(107, 107, 107);

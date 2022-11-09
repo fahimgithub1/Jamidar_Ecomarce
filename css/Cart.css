@@ -1,3 +1,28 @@
+.WishAChartHeos{
+    margin-top: 156px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+    .WishAChartHeos {
+        margin-top: 151px;
+        padding-top: 58px;
+    }
+}
+
+@media screen and (max-width: 1166px) {
+    .WishAChartHeos{
+        margin-top: 151px;
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .WishAChartHeos{
+        margin-top: 77px;
+        padding-top: 22px;
+    }
+}
 
 .banner.banner-inner {
     background: #f9e3d9;
@@ -6,6 +31,7 @@
     position: relative;
     overflow: hidden;
     z-index: 2;
+    border-radius: 7px;
 }
 
 .banner.banner-inner::after {
@@ -21,7 +47,7 @@
     z-index: -1;
 }
 .banner.banner-inner .breadcrumb-txt {
-    padding: 80px 0;
+    padding: 43px 0;
 }
 .banner.banner-inner .breadcrumb-txt h1 {
     font-size: 40px;
@@ -51,8 +77,8 @@
     color: var(--logoColor-2);
 }
 .banner.banner-inner .part-img {
-    height: 238px;
-    padding: 20px 0;
+    height: 170px;
+    padding: 10px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -75,7 +101,7 @@
     background-color: #979797;
     height: 6px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .perSstep .chartActive, 
@@ -97,6 +123,10 @@
 
 .orderSucessColors{
     color: var(--logoColor-1);
+}
+
+section.CommonpaddingSection.tab-section.productPhonemargin.WidhPage{
+    padding-top: 0;
 }
 
 @keyframes example {
@@ -149,10 +179,142 @@
     color: #509705;
 }
 
+/* Order Tracking Start */
+    .card {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.1rem;
+        color: black !important;
+        border-radius: 7px;
+    }
+    .card-header:first-child {
+        border-radius: calc(0.37rem - 1px) calc(0.37rem - 1px) 0 0;
+    }
+    .card-header {
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .track {
+        position: relative;
+        background-color: #ddd;
+        height: 7px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 78px;
+        margin-top: 50px;
+    }
+    .track .step {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        width: 25%;
+        margin-top: -18px;
+        text-align: center;
+        position: relative;
+    }
+    .track .step.active:before {
+        background: var(--logoColor-2);
+    }
+    .track .step::before {
+        height: 7px;
+        position: absolute;
+        content: "";
+        width: 100%;
+        left: 0;
+        top: 18px;
+    }
+    .track .step.active .icon {
+        background: var(--logoColor-2);
+        color: #fff;
+    }
+    .track .icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        border-radius: 100%;
+        background: #ddd;
+    }
+    .track .step.active .text {
+        font-weight: 400;
+        color: #000;
+    }
+    .track .text {
+        display: block;
+        margin-top: 7px;
+    }
+    .itemside {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+    }
+    .itemside .aside {
+        position: relative;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        border-radius: 5px;
+    }
+    .img-sm {
+        width: 80px;
+        height: 80px;
+        padding: 7px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #c8c8c8;
+    }
+    ul.row,
+    ul.row-sm {
+        list-style: none;
+        padding: 0;
+    }
+    .itemside .info {
+        padding-left: 15px;
+        padding-right: 7px;
+    }
+    .itemside .title {
+        display: block;
+        margin-bottom: 5px;
+        color: #212529;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .btn-warningo {
+        color: #ffffff;
+        background-color: var(--logoColor-2);
+        border-radius: 7px;
+    }
+
+    .btn-warningo:hover {
+        color: #ffffff;
+        background-color: var(--logoColor-1);
+    }
+/* Order Tracking End */
+
 @media screen and (max-width: 575px) {
+    .WishAChartHeos {
+        margin-top: 71px;
+        padding-top: 31px;
+    }
+
     .def-btn, .def-btn-2 {
-        height: 30px;
-        line-height: 30px;
         padding: 0 15px;
         font-size: 18px;
     }
@@ -160,13 +322,37 @@
     .def-btn{
         padding: 0px 12px ; 
     }
-    
+
+    .card-body div:not(:last-child){
+        margin-bottom: .7rem;
+    }
+
+    .card-body{
+        /* padding-bottom: 2px; */
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 0.8rem;
+    }
+
+    .card {
+        padding: .7rem;
+        padding-bottom: 0;
+    }
+
+    .track{
+        margin-bottom: 105px !important;
+    }
+
+    .card-header:first-child{
+        padding-left: 0;
+        padding-top: 0;
+    }
 }
 
 /* Copy */
 .revel-table .table-responsive {
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .revel-table .table-responsive .table {
     margin-bottom: 0;
@@ -186,9 +372,8 @@
     margin-bottom: 0;
 }
 .revel-table .table-responsive th {
-    padding: 20px 30px;
-    padding-bottom: 18px;
     text-align: center;
+    padding: 11px 30px;
 }
 .revel-table .table-responsive th:first-child {
     text-align: left;
@@ -353,7 +538,7 @@
 }
 .tab-section .tab-contents .btn-box .def-btn:last-child:hover,
 .tab-section .tab-contents .btn-box .def-btn:last-child:focus {
-    background: var(--logoColor-1);
+    background: var(--logoColor-2);
     color: #ffffff;
 }
 .tab-section .tab-contents .cart-total-panel {
@@ -362,8 +547,8 @@
 }
 .tab-section .tab-contents .cart-total-panel .title {
     font-size: 20px;
-    height: 50px;
-    line-height: 50px;
+    height: 44px;
+    line-height: 44px;
     font-weight: 600;
     color: #222222;
     border-bottom: 1px dashed #ddd;
@@ -860,7 +1045,7 @@
 
 @media screen and (min-width: 1100px) {
     .revel-table{
-        margin-bottom: 52px;
+        margin-bottom: 33px;
     }
 
     .CartPage .tab-contents .btn-box{
@@ -906,6 +1091,7 @@
         padding-top: 2rem !important;
     }
 }
+
 
 
 :root {

@@ -1,5 +1,13 @@
 .BlogSection{
     padding-top: 20px;
+    margin-bottom: -1rem;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .BlogSection{
+        margin-bottom: 0rem;
+    }
 }
 
 .AboutUsPerDiv2{
@@ -11,11 +19,15 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1024px) {
     .BlogSection{
         padding-top: 50px;
     } 
 }
+
+/* @media screen and (max-width: 1101) and (min-width: 1024px){
+    
+} */
 
 .AboutUsLeft{
     color: black !important;
@@ -121,24 +133,26 @@
 }
 /* Terms And Cond page end*/
 
-/* Blog page start */
-.BlogSection .AboutUsLeft{
-    padding-right: 40px;
-}
-
 .PerBlogDIv{
     box-shadow: 0 0 5px rgb(214 204 204);
-    padding: 30px;
+    padding: 11px;
     border-radius: 10px;
     height: min-content;
-    padding-bottom: 44px;
+    padding-bottom: 23px;
+    font-size: 18px;
+    border: 1px solid #2c66af78;
 }
 
-.PerBlogDIv:not(:last-child){
-    margin-bottom: 40px;
+.PerBlogDIv:hover{
+    border: 1px solid var(--logoColor-2);
+}
+
+.PerBlogDIvCol:not(:last-child){
+    padding-bottom: 25px;
 }
 
 .PerBlogDIv h2{
+    font-size: 22px;
     font-weight: bolder;
     margin-bottom: .8rem;
     color: var(--logoColor-1);
@@ -166,10 +180,11 @@
 }
 
 .PerBlogDIv img{
-    width: 70%;
+    width: 100%;
     margin-bottom: 0;
     padding-bottom: 0;
     margin-bottom: .5rem;
+    border-radius: 7px;
 }
 
 .PerBlogDIv p{
@@ -239,7 +254,6 @@
 
 .SupportAstDIv{
     padding-top: .6rem;
-    /* background-color: #afd3ff; */
     background: linear-gradient(#b8d8e3, #62BDF4);
 }
 
@@ -416,13 +430,20 @@
 /* support single page ends */
 
 @media screen and (max-width: 991px) {
-    .BlogSection .AboutUsLeft{
-        padding-right: 10px !important;
+    .PerBlogDIvCol:not(:last-child){
+        padding-bottom: 15px;
     }
-
 }
 
 @media screen and (max-width: 767px) {
+    .PerBlogDIvCol{
+        padding: 0 5px;
+    }
+
+    .PerBlogDIvCol:not(:last-child){
+        padding-bottom: 5px;
+    }
+
     .DaitlesPerDIv{
         margin-bottom: 1.2rem;
     }
@@ -436,11 +457,7 @@
     }
 
     .PerBlogDIv img{
-        width: 87%;
-    }
-
-    .BlogSection .AboutUsLeft{
-        padding-right: 0px;
+        width: 100%;
     }
 
     .PerBlogDIv{
