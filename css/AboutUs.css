@@ -226,6 +226,7 @@
 .DaitlesPerDIv img{
     width: 70%;
     height: auto;
+    border-radius: 7px;
 }
 
 .DaitlesPerDIv p{
@@ -239,6 +240,121 @@
 
 .DaitlesPerDIv:not(:last-child){
     margin-bottom: 2rem;
+}
+
+.CommentCount{
+    font-size: 24px;
+}
+
+.CommentCount span{
+    margin-right: .5rem;
+}
+
+.BlogBtn .button{
+    font-size: 16px;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    color: white;
+    background-color: var(--logoColor-1);
+}
+
+.BlogBtn .button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: var(--logoColor-2);
+}
+
+.ShowComment{
+    padding: 10px;
+    margin-top: .5rem;
+}
+
+.ShowComment .NmaeCommenter{
+    font-size: 20px;
+    color: rgb(30, 30, 30);
+    font-weight: 600;
+}
+
+.ShowComment .CommentDate{
+    font-size: 16px;
+}
+
+.ShowComment .SubmitedCommet{
+    padding: 20px;
+    font-size: 15px;
+    margin-top: .6rem;
+    border-radius: 7px;
+    border: 1px solid rgb(112, 112, 112);
+}
+
+.ShowComment .SubmitedCommet span{
+    display: block;
+}
+
+.ShowComment .SubmitedCommet .CommentReply{
+    padding: 8px 15px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 1rem;
+    background: var(--logoColor-2);
+}
+
+.ReolyForm{
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.ReolyForm form div{
+    display: block;
+    padding-top: 1rem;
+}
+
+
+.ReolyForm form label{
+    display: block;
+    width: 100%;
+}
+
+.ReolyForm form input{
+    display: block;
+    width: 100%;
+    float: none;
+    margin-top: .5rem;
+    max-width: 400px;
+    border: 1px solid #a8a8a8 !important;
+}
+
+.ReolyForm form textarea{
+    border: 1px solid #a8a8a8 !important;
+    display: block;
+    width: 100%;
+    float: none;
+    margin-top: .5rem;
+    height: 150px;
+    border-radius: 7px;
+    font-size: 16px ;
+    padding: 10px;
+}
+
+.ReolyForm form textarea:focus{
+    border: 1px solid black !important;
+    outline:  none !important;
+}
+
+.ReolyForm button{
+    border: none;
+    padding: 12px 26px;
+    border-radius: 7px;
+    color: white;
+    margin: auto;
+    margin-top: 1rem;
+    background: var(--logoColor-1);
+}
+
+.ReolyForm button:hover{
+    background: var(--logoColor-2);
 }
 /* Blog Daitles end */
 
@@ -488,6 +604,13 @@
     .HelpeHeros {
         padding: 24px 0;
         padding-bottom: 13px !important;
+    }
+
+    .ReolyForm button{
+        border: none;
+        padding: 8px 18px;
+        border-radius: 7px;
+        font-size: 16px;
     }
 }
 

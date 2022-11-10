@@ -1000,10 +1000,79 @@
                             <!-- Addres Informain From  end -->
                         </div>
 
-                        <!-- 777777777777 -->
+                        <!-- Phayment Mathod-->
                         <div class="tab-pane fade" id="Payment-Methods" role="tabpanel" aria-labelledby="nav-Payment-Methods" tabindex="0">
-                            <h5>Payment Methods </h5>
+                            <div class="AddressAddbtn">
+                                <h5>Payment Methods</h5>
+                                <button id="addaccoutnByn" onclick="FunAddAccount()">
+                                    <i class="fa-solid fa-plus" ></i> 
+                                    Add New Account
+                                </button>
+                            </div>
 
+                            <!-- account from start -->
+                            <div class="phaymentInfoFrom d-block">
+                                <form>
+                                    <!-- cradit card -->
+                                    <div>
+                                        <div>
+                                            <h3>Credit Card</h3>
+                                        </div>
+
+                                        <div>
+                                            <label>Card Number</label>
+                                            <input type="text" id="creditCardNumber" placeholder="XXXX XXXX XXXX XXXX" />
+                                        </div>
+    
+                                        <div>
+                                            <label>Expiry date</label> 
+                                            <input type="text" id="datepicker" placeholder="MM/YYYY" />
+                                        </div>
+                                        
+                                        <div>
+                                            <label>Security code</label> 
+                                            <input type="number" id="securityCode" placeholder="e.g. 123" />
+                                        </div>
+                                        
+                                        <div>
+                                            <label>Enter card holder name</label> 
+                                            <input type="text" placeholder="Card holder" />
+                                        </div>
+                                    </div>
+
+                                    <!-- PayPal -->
+                                    <div>
+                                        <div>
+                                            <h3>PayPal</h3>
+                                        </div>
+
+                                        <div>
+                                            <label>Email or phone no. that used in paypal</label> 
+                                            <input type="email" name="paypal-id" id="paypalId" placeholder="Email or mobile number" required />
+                                        </div>
+                                    </div>
+
+                                    <!-- Google -->
+                                    <div>
+                                        <div>
+                                            <h3>Google Pay</h3>
+                                        </div>
+
+                                        <div>
+                                            <label>Email or phone no. that used in google payl</label> 
+                                            <input type="email" name="google-Pay-id" id="googlePayId" placeholder="Email or mobile number" required />
+                                        </div>
+                                    </div>
+
+                                    <div class="AddresSubmit">
+                                        <p id="Adressadded">Save Account</p>
+                                        <p class="CalcleAdd">Cencle</p>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- account from end -->
+
+                            <!-- saved acount start -->
                             <div class="OrderList">
                                 <h6>Account</h6>
                                 
@@ -1018,6 +1087,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- saved acount end -->
                         </div>
         
                         <!-- 888888888888 -->

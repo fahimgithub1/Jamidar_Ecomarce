@@ -183,9 +183,13 @@
 }
 
 .addressInfoFrom{
+    display: none;
+}
+
+.addressInfoFrom,
+.phaymentInfoFrom{
     margin-top: 2.5rem;
     text-align: center;
-    display: none;
 }
 
 .PasswordEdit{
@@ -195,6 +199,7 @@
 
 
 .addressInfoFrom div,
+.phaymentInfoFrom div div,
 .PasswordEdit div{
     margin-bottom: .8rem;
     display: flex;
@@ -204,12 +209,14 @@
 }
 
 .addressInfoFrom div label,
+.phaymentInfoFrom div div label,
 .PasswordEdit div label{
     margin-right: .4rem;
     width: 150px;
 }
 
 .addressInfoFrom input,
+.phaymentInfoFrom input,
 .PasswordEdit input{
     height: 35px;
     border: 1px solid #9f9d9d;
@@ -217,29 +224,40 @@
 }
 
 .addressInfoFrom input:focus,
+.phaymentInfoFrom input:focus,
 .PasswordEdit input:focus{
     border: 1px solid var(--logoColor-2);
     box-shadow: 0 0 5px var(--logoColor-2);
 }
 
 .addressInfoFrom p,
+.phaymentInfoFrom p,
 .PasswordEdit p{
     border: none;
     outline: none;
     background-color: var(--logoColor-1);
     padding: 8px 16px;
     color: white !important;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 7px;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     cursor: pointer;
     display: inline-block;
     margin-bottom: 0;
+    font-size: 15px;
 }
 
 .addressInfoFrom p:hover,
+.phaymentInfoFrom p:hover,
 .PasswordEdit p:hover{
     background-color: var(--logoColor-2);
+}
+
+.phaymentInfoFrom h3{
+    color: #2c66af;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
 }
 
 .collectedAddress{

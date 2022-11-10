@@ -78,7 +78,6 @@
     box-shadow: 0 0 5px rgb(185 127 93);
     font-size: 20px;
     font-weight: 600;
-    /* outline: 2px solid #ff863f; */
     margin-top: 1rem;
     width: 100%;
 }
@@ -128,7 +127,6 @@
 }
 
 .RegistBtn{
-    /* background-color: var(--logoColor-2); */
     color: #323232;
     border-radius: 7px;
     margin: auto;
@@ -161,6 +159,10 @@ button.FaBtn.RegistBtn.LoginBtn{
 
 .ForgotPassowrdDiv{
     display: none;
+}
+
+.OrderTracking{
+    border-bottom: none;
 }
 
 :root {
