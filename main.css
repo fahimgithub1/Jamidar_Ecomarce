@@ -386,6 +386,87 @@ input:focus,input:hover{
     color: rgb(5, 5, 5);
 }
 
+/* switch acount start*/
+.IconDiv img{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.UserImg {
+    position: relative;
+}
+
+.WtitchDiv{
+    position: absolute;
+    background-color: white;
+    height: 238px;
+    width: 250px;
+    box-shadow: 0 0 10px #c9c9c9;
+    bottom: -245px;
+    right: 0;
+    border-radius: 7px;
+    padding: 9px 15px;
+    text-align: center;
+    display: none;
+}
+
+.WtitchDiv div{
+    padding: 10px 5px;
+    border-bottom: 1px solid var(--logoColor-1);
+    font-size: 14px !important;
+    text-align: left;
+}
+
+.WtitchDiv div:hover{
+    border-radius: 7px;
+    background-color: var(--logoColor-2);
+    border-bottom: 1px solid var(--logoColor-2);
+}
+
+.WtitchDiv div:hover a{
+    color: white;
+}
+
+.WtitchDiv div img{
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+    border: 50%;
+    border: 1px solid var(--logoColor-2);
+}
+
+.WtitchDiv button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px #c9c9c9;
+    background-color: var(--logoColor-1);
+}
+
+.WtitchDiv button:hover{
+    background-color: var(--logoColor-2);
+}
+
+@media screen and (max-width: 1200px) {
+    .LoveHideLaptop{
+        display: none;
+    }
+
+    .IconDiv:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+    .SelectedIocn {
+        justify-content: end;
+    }
+}
+
+/* switch acount end*/
+
 .Count{
     background: var(--logoColor-2);
     width: 29px;

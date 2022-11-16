@@ -149,10 +149,10 @@ section.CommonpaddingSection.tab-section.productPhonemargin.WidhPage{
 }
 
 .def-btn{
-    height: 40px;
+    height: 39px;
     border-radius: 8px;
-    line-height: 38px;
-    padding: 0px 12px;
+    line-height: 34px;
+    padding: 2px 12px;
     background: var(--logoColor-2);
     color: #ffffff;
     font-size: 15px;
@@ -316,7 +316,7 @@ section.CommonpaddingSection.tab-section.productPhonemargin.WidhPage{
 
     .def-btn, .def-btn-2 {
         padding: 0 15px;
-        font-size: 18px;
+        font-size: 15px;
     }
     
     .def-btn{
@@ -517,8 +517,18 @@ section.CommonpaddingSection.tab-section.productPhonemargin.WidhPage{
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 0px;
+}
+.tab-section .tab-contents .btn-box2 {
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 0px;
 }
 .tab-section .tab-contents .btn-box .def-btn:first-child {
     background: var(--logoColor-1);
@@ -1085,6 +1095,28 @@ section.CommonpaddingSection.tab-section.productPhonemargin.WidhPage{
         padding-top: 1rem !important;
     }
 }
+
+
+@media screen and (max-width: 767px) {
+    .tab-section .tab-contents .btn-box2 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .tab-section .tab-contents .btn-box2 a{
+        width: 224px !important;
+        text-align: center;
+    }
+
+    .tab-section .tab-contents .btn-box {
+        justify-content: center;
+    }
+
+    /* .CartPage {
+        margin-top: 10px;
+    } */
+}
+
 
 @media screen and (min-width: 1024px) {
     .CartPage{

@@ -9,6 +9,20 @@
         NavCaragoris.style.display = "block";
     }
 
+// Switch Account 
+    let ImgiD = document.getElementById("switchAccount");
+    let x = true
+    ImgiD.addEventListener('click', ()=>{
+        let SwitchDiv = document.querySelector(".WtitchDiv");
+        if(x){
+            SwitchDiv.style.display = "block"
+            x = false
+        }else{
+            SwitchDiv.style.display = "none"
+            x = true
+        }
+    })
+
 // for dropdown menu in phone
     let DropDown = document.querySelector(".DeopDownMenuMobiel");
     DropDown.style.display = "none";
