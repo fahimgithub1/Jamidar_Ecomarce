@@ -55,6 +55,11 @@
     .productPhonemargin .tab-content{
         margin-top: .5rem;
     }
+
+    .delivary2{
+        margin-top: 17px !important;
+        margin-bottom: 8px;
+    }
 }
 
 /* my */
@@ -69,6 +74,24 @@
     border-radius: 6px;
 }
 
+.delivary2{
+    margin-top: 25px;
+}
+
+.delivary2 .PdpSellerInfoPc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivary2 .PdpSellerInfoPc span{
+    font-size: 14px;
+}
+
+.delivary2 .PdpSellerInfoPc h5{
+    margin-bottom: 0;
+    border: none;
+}
+
 .delivary h5{
     color: #a1572eeb;
     font-weight: 600;
@@ -81,8 +104,9 @@
     margin-bottom: 1rem;
 }
 
-.product-view-area ul li{
-    display: block;
+.product-view-area ul li:not(:last-child){
+    /* display: block; */
+    margin-right: .4rem;
 }
 
 .delivary ul li{
@@ -110,10 +134,169 @@
 
 .BigImg figure{
     width: 100% !important; 
+    display: flex;
+    justify-content: center;
 }
 
 .BigImg img{
     width: 100% !important; 
+}
+
+.VariantColor{
+    margin-bottom: 1rem;
+}
+
+.VariantColor span{
+    font-weight: 500;
+}
+
+.ProductColor button{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 0;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    outline: 4px solid transparent;
+}
+
+.ProductColor button:hover{
+    outline: 2px solid black;
+}
+
+.ColorBtn1:hover{
+    background-color: var(--logoColor-1);
+}
+
+.ColorBtn2{
+    background-color: rgb(238, 7, 7);
+}
+
+.ColorBtn3{
+    background-color: blue;
+}
+
+.ColorBtn2:hover{
+    background-color: rgb(238, 7, 7);
+}
+
+.ColorBtn3:hover{
+    background-color: blue;
+}
+
+.Variant{
+    margin-top: .5rem;
+}
+
+.VariantImgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Variant .VariantImgs{
+    margin-top: .5rem;
+}
+
+.Variant .VarImg{
+    width: 89px;
+    height: 73px;
+    border-radius: 5px;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+.Variant .VarImg img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.TextVariant {
+    padding: 5px 10px;
+    background: rgb(218, 231, 247);
+    margin-right: 0.4rem;
+    border-radius: 5px;
+    color: var(--logoColor-1);
+    /* border: 1px solid #ff863f; */
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
+
+.BuyBoth{
+    border-top: 1px solid rgb(140, 140, 140);
+    padding: 15px 10px;
+    margin-top: 1rem;
+}
+
+.BuyBoth{
+    text-transform: uppercase;
+}
+
+.BuyBoth .Bothtitle{
+    /* padding: 10px; */
+    font-weight: bold;
+    color: var(--logoColor-1);
+    padding-bottom: 0;
+}
+
+.BuyBoth .ProductInfo{
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 7px;
+}
+
+.BuyBoth .ProductInfo .ProductAndTitle,
+.BuyBoth .BothPriceAndBtn{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.BuyBoth .BothPriceAndBtn{
+    border-top: 1px solid rgb(156, 156, 156);
+    justify-content: space-between;
+}
+
+.BuyBoth .BothPriceAndBtn .BothPrice h6{
+    font-weight: bold;
+    color: var(--logoColor-1);
+    margin-bottom: 0;
+}
+
+.BuyBoth .BothPriceAndBtn .BothPrice span{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.BuyBoth .BothPriceAndBtn .BothBtn button{
+    outline: none;
+    background-color: var(--logoColor-2);
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 7px;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.BuyBoth .BothPriceAndBtn .BothBtn button:hover{
+    background-color: var(--logoColor-1);
+}
+
+.BuyBoth .ProductInfo .ProductAndTitle img{
+    width: 65px;
+    margin-right: 0.5rem;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.BuyBoth .ProductInfo .ProductAndTitle h6{
+    font-weight: bold;
+    color: var(--logoColor-1);
+}
+
+.BuyBoth .ProductInfo .ProductAndTitle span{
+    font-size: 15px;
 }
 
 /* .mz-lens {
@@ -263,7 +446,7 @@
     line-height: 100%;
     font-weight: 400;
     color: #000;
-    margin-bottom: 23px;
+    margin-bottom: 12px;
 }
 .product-view-area .part-txt .price span {
     font-size: 15px;
@@ -287,7 +470,7 @@
     font-size: 16px;
     line-height: 30px;
     color: #222222;
-    margin-bottom: 19px;
+    margin-bottom: 12px;
 }
 .product-view-area .part-txt .short-details li {
     margin-bottom: 1px;
@@ -358,7 +541,7 @@
     border-radius: 3px;
 }
 .product-view-area .part-txt form .product-count .quantity {
-    width: 100%;
+    /* width: 100%; */
     border-radius: 7px;
     overflow: hidden;
 }

@@ -39,22 +39,22 @@
 
     }
 
-    // For scorole efect
-    window.addEventListener('scroll', () => {
-        let TopNev = document.querySelector('.TopNev');
-        let MidNev = document.querySelector('.MidNev');
-        let BottomNev = document.querySelector('.BottomNev');
+    // // For scorole efect
+    // window.addEventListener('scroll', () => {
+    //     let TopNev = document.querySelector('.TopNev');
+    //     let MidNev = document.querySelector('.MidNev');
+    //     let BottomNev = document.querySelector('.BottomNev');
 
-        if (window.scrollY > 300) {
-            TopNev.style.display = 'none';
-            MidNev.style.display = 'none';
-            BottomNev.style.background = "#dae7f7";
-        } else {
-            TopNev.style.display = 'block';
-            MidNev.style.display = 'block';
-            BottomNev.style.background = "white";
-        }
-    })
+    //     if (window.scrollY > 300) {
+    //         TopNev.style.display = 'none';
+    //         MidNev.style.display = 'none';
+    //         BottomNev.style.background = "#dae7f7";
+    //     } else {
+    //         TopNev.style.display = 'block';
+    //         MidNev.style.display = 'block';
+    //         BottomNev.style.background = "white";
+    //     }
+    // })
 
     // hdie and show ctagoris in scrole
     let CatagorisIcinHide111 = document.querySelector(".CatagorisIcinHide");
@@ -73,18 +73,27 @@
 
 
     // order page
-    let ProceedToCheckout1 = document.querySelector(".ProceedToCheckout");
-    ProceedToCheckout1.addEventListener("click", function() {
+        // let ProceedToCheckout1 = document.querySelector(".ProceedToCheckout");
+        // ProceedToCheckout1.addEventListener("click", function() {
+        //     document.getElementById("cartTab").style.display = "none";
+        //     document.getElementById("checkOutTab").style.display = "block";
+        // });
+
+    function ProceedToCheckoutFuns() {
         document.getElementById("cartTab").style.display = "none";
         document.getElementById("checkOutTab").style.display = "block";
-    });
+    }
 
-    // order page
-    let PalceOrder1 = document.querySelector(".PalceOrder");
-    PalceOrder1.addEventListener("click", function() {
+        // order page
+        // let PalceOrder1 = document.querySelector(".PalceOrder");
+        // PalceOrder1.addEventListener("click", function() {
+        //     document.getElementById("checkOutTab").style.display = "none";
+        //     document.getElementById("orderCompletedTab").style.display = "block";
+        // });
+    function ProceedToCheckout2Funs() {
         document.getElementById("checkOutTab").style.display = "none";
         document.getElementById("orderCompletedTab").style.display = "block";
-    });
+    }
 
 
     // login page hide show
@@ -130,6 +139,7 @@
         let collectedAddressA = document.querySelector(".collectedAddress");
         collectedAddressA.style.display = "none";
         addressInfoFrom.style.display = "block";
+        console.log("helow!!!!!!!!!")
     }
     
     function FunaddressInfoFrom(){
@@ -137,5 +147,6 @@
         let collectedAddressA = document.querySelector(".collectedAddress");
         collectedAddressA.style.display = "block";
         addressInfoFrom.style.display = "none";
+        console.log("helow!!!!!!!!!")
     }
 

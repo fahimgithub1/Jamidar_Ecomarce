@@ -67,6 +67,10 @@
     background: none;
 }
 
+.FaBtn a{
+    color: white;
+}
+
 .LginForm button{ 
     border: none;
     outline: none;
