@@ -1024,6 +1024,30 @@
     border: none;
     background: none;
 }
+
+.tab-section .tab-contents .cart-total-panel {
+    border: 1px dashed #ddd;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.WidhPage .tab-contents .btn-box {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.banner.banner-inner {
+    background: #dae7f7;
+    background: cover;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 7px;
+}
+
+
 /* @media screen and (max-width: 590px) {
     .details-area .tab-pane .product-review .review-overview{
         gap: 0px !important;
@@ -10492,7 +10516,33 @@
     }
 }
 
+.ChargeDiv{
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
 
+.ChargeDiv .title{
+    margin-bottom: 15px;
+    color: var(--cartColor);
+    padding-bottom: 15px;
+    border-bottom: 2px solid;
+}
+
+.panel-body img {
+    width: 23%;
+    max-width: 66px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.ChargeDiv .panel-body p{
+    margin-bottom: 10px;
+}
+
+.RightRelated .ImageBox{
+    height: 143px;
+}
 
 
 
