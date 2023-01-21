@@ -320,7 +320,7 @@ nav{
 
 .MidNev img{
    height:  auto;
-   width: 100%;
+   width: auto;
 }
 
 @media screen and (min-width: 1024px) {
