@@ -225,18 +225,26 @@ nav{
     transform: all 5s;
 }
 
+.ToppNev {
+    background-color: #dae7f7;
+}
+
+.TopNev .container .col-7 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 .TopNev{
     display: flex;
     flex-wrap: wrap;
-    padding: .3rem 0;
-    background-color: var(--TopNev);
-    color: var(--navColor);
+    padding: 0.3rem 0;
+    background-color: #9dbade3b;
+    color: black;
 }
 
 .TopNev li{
-    font-size: 13px;
     margin-right: 0.4rem;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .TopNev li:hover, 
@@ -257,7 +265,7 @@ nav{
 }
 
 .ContactDiv ul li:not(:last-child){
-    border-right: 1px solid white;
+    border-right: 1px solid rgb(33, 33, 33);
 }
 
 .ContactDiv ul li a{
@@ -267,31 +275,35 @@ nav{
 }
 
 .ContactDiv ul li a i{
-    width: 22px;
-    height: 22px;
     text-align: center;
     padding: 5px;
-    border-radius: 50%;
+    border-radius: 5px;
+    color: #000;
 }
 
 .ContactDiv ul li a i:hover {
     background-color: white;
+    color: white;
 }
 
-.ContactDiv ul li:hover .facbookNav {
-    color: #0f90f3 !important;
+.ContactDiv ul li a .fa-facebook-f:hover{
+    background-color: #0f90f3 !important;
 }
 
-.ContactDiv ul li:hover .inastragramNav {
-    color: #e7385c !important;
+.ContactDiv ul li a .fa-instagram:hover {
+    background-color: #e7385c !important;
 }
 
-.ContactDiv ul li:hover .Youtube {
-    color: #ff0000 !important;
+.ContactDiv ul li a .fa-linkedin-in:hover{
+    background-color: #0070B1 !important;
 }
 
-.ContactDiv ul li:hover .tuitterNav {
-    color: #1d9bf0 !important;
+.ContactDiv ul li a .fa-youtube:hover{
+    background-color: #ff0000 !important;
+}
+
+.ContactDiv ul li a .fa-twitter:hover{
+    background-color: #1d9bf0 !important;
 }
 
 .Youtube i {
@@ -334,10 +346,11 @@ input{
     height: 40px;
     padding: 10px;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     border-radius: 8px !important;
     border: none;
     float: right;
+    border: 1px solid rgb(192, 192, 192);
 }
 
 input:focus,input:hover{
@@ -1260,7 +1273,7 @@ input:focus,input:hover{
 }
 
 .BannerDiv{
-    height: 166px;
+    height: 190px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -1277,7 +1290,7 @@ input:focus,input:hover{
 }
 
 .BannerDiv img{
-    height: auto;
+    height: 100%;
 }
 /* ============================ */
 /* FEATURED BRAND  section start */
@@ -1351,6 +1364,11 @@ input:focus,input:hover{
     justify-items: center;
 }
 
+.owl-carousel .owl-item img{
+    width: 80%;
+    margin: auto;
+}
+
 .item img{
     width: 100%;
     height: 100px;
@@ -1416,7 +1434,8 @@ input:focus,input:hover{
     box-shadow: 0 0 5px #d7d5d5;
     margin-left: 2px;
     border: 1px solid #d7d5d5;
-    border-radius: 5px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .PerProductDiv:hover{
